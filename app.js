@@ -141,11 +141,70 @@
 
 // Q1
 let num = 40;
-if(num%10 == 0){
+if (num % 10 == 0) {
     console.log("good");
+}
+else {
+    console.log("bad");
+}
+
+// Q2
+// let name = prompt("enter your name");
+// let age = prompt("enter your age");
+// alert("name is:" + name + "age is :" + age);
+
+// Q3
+let quarter = 3;
+switch (quarter) {
+    case 1:
+        console.log("January, february, March");
+        break;
+    case 2:
+        console.log("April, May, June");
+        break;
+    case 3:
+        console.log("July, August, September");
+        break;
+    case 4:
+        console.log("october, November, December");
+        break;
+    default:
+        console.log("mahina gyaa tel lene");
+}
+
+// Q4
+let str = "Anjali";
+
+if((str[0] == "A" || str[0] == "a") && (str.length > 5)){
+    console.log("good string");
 }
 else{
     console.log("bad");
 }
 
-// Q2
+// Q5
+
+let a =34;
+let b =33;
+let c = 56;
+
+if(a > b && a > c){
+    console.log("a is largest", a);
+}
+else if(b > a && b > c){
+    console.log("b is largest", b);
+}
+else{
+    console.log(`c is largest : ${c}`);
+}
+
+// Q6
+let num1 = 2342;
+let num2 = 4519;
+
+if(num1%10 == num2%10){
+    console.log("it is same", num1%10);
+}
+else{
+    console.log("not same");
+}
