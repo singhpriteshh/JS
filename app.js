@@ -129,15 +129,16 @@
 //         console.log("moj krne bhai sojaa chup chap");
 // }
 
-
-
 // console.error("are bhai bhai bhai bhai");
 
 // let myName = prompt("enter your name");
 // console.log(myName);
 
-// JS Part 2 Question
 
+
+
+
+// JS Part 2 Question
 
 // Q1
 let num = 40;
@@ -208,3 +209,27 @@ if(num1%10 == num2%10){
 else{
     console.log("not same");
 }
+
+
+
+// JS part 3 
+let name = "singh pritesh";
+console.log(name.trim());
+
+
+// let pass = prompt("geneerate pass");
+
+console.log(name.toUpperCase());
+
+console.log(name.indexOf("i")); //first index of word
+console.log(name.indexOf("a")); //jb word naa ho
+console.log(name.indexOf("p"));
+
+console.log(name.slice(0,6));
+
+console.log(name.replace("pritesh","Anjali"));
+
+console.log(name.repeat(4));
+
+let msg = "  help";
+console.log(msg.trim().toUpperCase());
