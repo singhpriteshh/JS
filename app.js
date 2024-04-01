@@ -233,3 +233,8 @@ console.log(name.repeat(4));
 
 let msg = "  help";
 console.log(msg.trim().toUpperCase());
+
+
+let myName = "singh Priteshkumar ";
+console.log(myName.trim().toUpperCase());
+console.log(myName.charAt(4));
