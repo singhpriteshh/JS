@@ -223,7 +223,7 @@ console.log(name.toUpperCase());
 
 console.log(name.indexOf("i")); //first index of word
 console.log(name.indexOf("a")); //jb word naa ho
-console.log(name.indexOf("p"));
+console.log(name.indexOf("p")); //it will give the index number of char p
 
 console.log(name.slice(0,6));
 
